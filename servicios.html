@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- agrgar favicon-->
+        <title>MUNDO UX/UI</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/logo01.ico" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilos.css">   
+        <!-- Para carrucel mobile-->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    </head>
+    <body>
+        <!--Inicio del Header-->
+        <header>
+            <div class="header">
+                <div class="header__div">
+                    <a href="#menu" class="header__logo1">
+                        <img src="assets/icon-menu.svg" alt="Click para abrir menu" class="header__menuh">
+                    </a>                
+                    <a href="index.html" class="header__logo2">
+                        <img src="assets/logo.svg" alt="Logo MUNDO UX/UI">
+                    </a>
+                </div>
+                <nav id="menu" class="header__menu">
+                    <a href="#">
+                        <img src="assets/icon-cross.svg" alt="Click para cerrar menu" class="header__menuc">
+                    </a>
+                    <ul class="header__menu__items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicios.html"  class="activo">Servicios</a></li>
+                        <li><a href="casos_de_exito.html">Casos de éxito </a></li>
+                        <li><a href="pagina_de_interes.html">Páginas de interés</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </header>
+        <!--Fín del Header-->
+
+        <main>
+            <!--Inicio Sección hero-->        
+            <section class="heroS">
+                <article class="hero__info">
+                    <h1 class="hero__info__h1">Servicios</h1>
+                    <h2 class="hero__info__h2">¿Cómo UX/UI puede ayudarte?</h2>
+                </article>
+            </section>    
+            <!--Fín Sección hero-->
+
+            <!--Inicio servicios-->
+            <div class="serviciosdiv">
+                <section id="configurar" class="servicios">
+                    <div class="servicios__rectangulo_a">
+                        <img src="assets/01Configurar.svg" class="servicio_imagen" alt="Foto sobre configurar">
+                    </div>
+                    <article class="servicios__info">
+                        <h2 class="servicios__info__h2">Configurar</h2>
+                        <h1 class="servicios__info__h1">Entender dónde estamos parados y hacia dónde queremos ir.</h1>
+                        <ul class="servicios__info__ul">
+                            <li>Conocer las perspectivas y posibilidades desde el lado de Negocio, Desarrollo y UX sobre la solución.</li>
+                            <li>Definir la solución con los actores interesados desde el lado de Negocio, Desarrollo y UX.</li>
+                            <li>Comenzar a documentar el proceso, a agrupar la información, definir el proyecto en etapas y pasos a seguir.</li>
+                        </ul>
+                    </article>
+                </section>
+
+                <section class="servicios">
+                    <article id="descubrir" class="servicios__info">
+                        <h2 class="servicios__info__h2">Descubrir y empatizar</h2>
+                        <h1 class="servicios__info__h1">Conocer quién es mi usuario y cuál es su contexto.</h1>
+                        <ul class="servicios__info__ul">
+                            <li>Investigar al usuario, su contexto, necesidades y aspiraciones. </li>
+                            <li>Conocer al mercado, las competencias y otras soluciones que utilizan los usuarios en su día a día.</li>
+                            <li>Recolectar información cuantitativa para trabajar con datos que permitan comparar en un futuro y que sean de utilidad para la toma de decisiones.</li>
+                            <li>Documentar y transformar los datos en información.</li>
+                        </ul>
+                    </article>
+                    <div class="servicios__rectangulo_a">
+                        <img src="assets/02Descubrir.svg" class="servicio_imagen" alt="Foto sobre descubrir">
+                    </div>
+                </section>
+
+                <section class="servicios">
+                    <div class="servicios__rectangulo_a">
+                        <img src="assets/03Definir.svg" class="servicio_imagen" alt="Foto sobre definir e idear">
+                    </div>
+                    <article id="definir" class="servicios__info">
+                        <h2 class="servicios__info__h2">Definir e idear</h2>
+                        <h1 class="servicios__info__h1">Definir cuál es el problema y cómo resolvemos el problema.</h1>
+                        <ul class="servicios__info__ul">
+                            <li>Entender el problema, sus causas y consecuencias.</li>
+                            <li>Realizar una puesta en común con los actores interesados para detectar oportunidades, posibilidades, restricciones y priorizar tareas.</li>
+                            <li>Definir la solución, su propósito, sus beneficios, los objetivos de negocio, de desarrollo y de UX. También conocer qué necesitamos medir, y cómo lo vamos a medir.</li>
+                        </ul>
+                    </article>
+                </section>
+
+                <section class="servicios">
+                    <article id="proto" class="servicios__info">
+                        <h2 class="servicios__info__h2">Prototipar y desarrollar</h2>
+                        <h1 class="servicios__info__h1">Diseñar cómo será y cómo funcionará la solución.</h1>
+                        <ul class="servicios__info__ul">
+                            <li>Diseñar las diferentes pantallas y complementar con nuevos componentes al sistema de diseño.</li>
+                            <li>Coordinar con los developers el desarrollo de las pantallas.</li>
+                            <li>Acompañar a los developers en el testeo del desarrollo.</li>
+                        </ul>
+                    </article>
+                    <div class="servicios__rectangulo_a">
+                        <img src="assets/04Prototipo.svg" class="servicio_imagen" alt="Foto sobre prototipar u desarrollar">
+                    </div>
+                </section>
+
+                <section class="servicios">
+                    <div class="servicios__rectangulo_a">
+                        <img src="assets/05Monitorear.svg" class="servicio_imagen" alt="Foto sobre monitoreal y evaluar">
+                    </div>
+                    <article id="monito" class="servicios__info">
+                        <h2 class="servicios__info__h2">Monitorear y evaluar</h2>
+                        <h1 class="servicios__info__h1">Evaluar si la solución cubre las necesidades del usuario, si el usuario la utiliza.</h1>
+                        <ul class="servicios__info__ul">
+                            <li>Relevar información cuantitativa y cualitativa de la solución sobre cómo y porqué los usuarios la utilizan.</li>
+                            <li>Testear la solución con los usuarios.</li>
+                        </ul>
+                    </article>
+                </section>
+
+                <section class="servicios">
+                    <article id="comunicar" class="servicios__info">
+                        <h2 class="servicios__info__h2">Comunicar</h2>
+                        <h1 class="servicios__info__h1">Ayudar a que el usuario conozca la solución y el valor le ofrece.</h1>
+                        <ul class="servicios__info__ul">
+                            <li>Definir qué comunicar, cuándo hacerlo y qué medios utilizar.</li>
+                            <li>Diseñar templates para newsletter, notificaciones, gráficos y presentaciones.</li>
+                            <li>Desarrollar la documentación de la solución para los usuarios.</li>
+                            <li>Planificar onboarding, cursos y webinars sobre la solución.</li>
+                        </ul>
+                    </article>
+                    <div class="servicios__rectangulo_a">
+                        <img src="assets/06Comincar.svg" class="servicio_imagen" alt="Foto sobre comunicar">
+                    </div>
+                </section>
+            </div>
+            <!--Fín servicios-->
+        </main>    
+        <!--Inicio del footer-->
+        <footer>
+            <div class="footer">
+                <div class="footer__col1">
+                    <a href="index.html" class="footer__logo">
+                        <img src="assets/logoF.svg" alt="Logo profesional">
+                    </a>
+                    <p class="pfooter">Copyright MUNDO UX/UI – Todos los derechos reservados</p>
+                </div>
+
+                <div class="footer__col2">
+                    <nav class="footer__menu">
+                        <h5>Sitemap</h5>
+                        <ul class="footer__menu__items">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="casos_de_exito.html">Casos de éxito </a></li>
+                            <li><a href="pagina_de_interes.html">Páginas de interés</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div> 
+            </div>  
+        </footer>
+        <!--Fin del footer-->
+    </body>
+</html>

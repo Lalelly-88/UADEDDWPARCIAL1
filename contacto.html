@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- agrgar favicon-->
+        <title>MUNDO UX/UI</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/logo01.ico" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilos.css">   
+        <!-- Para carrucel mobile-->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    </head>
+    <body>
+        <!--Inicio del Header-->
+        <header>
+            <div class="header">
+                <div class="header__div">
+                    <a href="#menu" class="header__logo1">
+                        <img src="assets/icon-menu.svg" alt="Click para abrir menu" class="header__menuh">
+                    </a>                
+                    <a href="index.html" class="header__logo2">
+                        <img src="assets/logo.svg" alt="Logo MUNDO UX/UI">
+                    </a>
+                </div>
+                <nav id="menu" class="header__menu">
+                    <a href="#">
+                        <img src="assets/icon-cross.svg" alt="Click para cerrar menu" class="header__menuc">
+                    </a>
+                    <ul class="header__menu__items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="casos_de_exito.html">Casos de éxito </a></li>
+                        <li><a href="pagina_de_interes.html">Páginas de interés</a></li>
+                        <li><a href="contacto.html" class="activo">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </header>
+        <!--Fín del Header-->
+
+        <main class="main">
+            <!--Inicio Sección hero-->        
+            <section class="heroC">
+                <article class="hero__info">
+                    <h1 class="hero__info__h1">Contacto</h1>
+                    <h2 class="hero__info__h2">¡Enfrentemos un nuevo desafío juntos!</h2>
+                </article>
+            </section>    
+            <!--Fín Sección hero-->
+
+            <!--Inicio contacto-->
+            <section> 
+                <article class="contacto">
+                    <div class="contacto__formulario">
+                        <form action="" method="get">                  
+                            <label for="nombre">* Nombre completo:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Escribir nombre y apellido" required>
+                            <label for="mail">* Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Escriba su email" required>
+                            <label for="empresa">* Nombre de la empresa:</label>
+                            <input type="text" id="empresa" name="empresa" placeholder="Escriba la empresa que representa">
+                            <label for="tipo">* Tipo de empresa</label>
+                            <select name="tipo" id="tipo">
+                              <option value="Seleccionar">Seleccionar</option>
+                              <option value="ONG">ONG</option>
+                              <option value="Legales">Legales</option>
+                              <option value="Inmobiliaria">Java</option>
+                              <option value="Startup">Golang</option>
+                              <option value="Finanzas">Finanzas</option>
+                              <option value="Alimentación">Alimentación</option>
+                              <option value="Telecounicaciones">Telecounicaciones</option>
+                              <option value="Otro">Otro</option>
+                            </select>
+                            <label for="mensaje">* Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Escribir tu mensaje" required></textarea>
+                            <button type="submit" class="boton1">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </article>
+            </section>
+            <!--Fín contacto-->
+        </main>
+
+
+        <!--Inicio del footer-->
+        <footer>
+            <div class="footer">
+                <div class="footer__col1">
+                    <a href="index.html" class="footer__logo">
+                        <img src="assets/logoF.svg" alt="Logo profesional">
+                    </a>
+                    <p class="pfooter">Copyright MUNDO UX/UI – Todos los derechos reservados</p>
+                </div>
+
+                <div class="footer__col2">
+                    <nav class="footer__menu">
+                        <h5>Sitemap</h5>
+                        <ul class="footer__menu__items">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="servicios.html">Servicios</a></li>
+                            <li><a href="casos_de_exito.html">Casos de éxito </a></li>
+                            <li><a href="pagina_de_interes.html">Páginas de interés</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div> 
+            </div>  
+        </footer>
+        <!--Fin del footer-->
+    </body>
+</html>
